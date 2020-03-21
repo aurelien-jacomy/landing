@@ -1,0 +1,31 @@
+#inline-footer {
+	border-top: 2px solid rgb(220,220,220);
+	background-color: linear-gradient(rgb(240,240,240), #FCF5E8);
+}
+
+#inline-footer h2 {
+	font-size: 18px;
+	margin-bottom: 12px;
+}
+
+#inline-footer > ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#inline-footer > ul > li {
+	display: inline-block;
+	padding: 0px 20px;
+	text-align: left;
+	font-size: 32px;
+	margin: 12px;
+}
+
+#inline-footer a {
+	color: #233319;
+}
+
+#inline-footer a:hover {
+	color: #79A160;
+}
+

@@ -1,0 +1,25 @@
+.banner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	height: 500px;
+	padding: 20px;
+}
+
+.banner .container{
+	text-align: center;	
+	background-color: none;
+}
+
+.banner h1 {
+	font: 64px;
+}
+
+.banner p {
+	font: 40px rgb(200,200,200);
+	margin-bottom: 64px;
+}
